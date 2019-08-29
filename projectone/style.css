@@ -1,0 +1,20 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorBtn {
+    padding:5px 10px;
+    border: 2px solid rgb(16, 4, 71);
+    border-radius:7px;
+    color:white;
+    background-color: rgba(0,0,0,0.6);
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+}
+.colorBtn:hover {
+    background-color:lightblue;
+}
